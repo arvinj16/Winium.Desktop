@@ -36,6 +36,12 @@ namespace Winium.StoreApps.Common
         public static readonly string ClickElement = "clickElement";
 
         /// <summary>
+        /// Represents DoubleClickElement command
+        /// 
+        /// </summary>
+        public static readonly string DoubleClickElement = "doubleClickElement";
+
+        /// <summary>
         /// Represents a Browser close command
         /// 
         /// </summary>

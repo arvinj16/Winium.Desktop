@@ -164,6 +164,9 @@
                 DriverCommand.ClickElement,
                 new CommandInfo("POST", "/session/{sessionId}/element/{id}/click"));
             this.commandDictionary.Add(
+                DriverCommand.DoubleClickElement,
+                new CommandInfo("POST", "/session/{sessionId}/element/{id}/doubleClickElement"));
+            this.commandDictionary.Add(
                 DriverCommand.GetElementText,
                 new CommandInfo("GET", "/session/{sessionId}/element/{id}/text"));
             this.commandDictionary.Add(

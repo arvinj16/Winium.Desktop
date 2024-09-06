@@ -1,5 +1,6 @@
 ﻿namespace Winium.Desktop.Driver.Automator
 {
+    using System;
     #region using
 
     using System.Collections.Generic;
@@ -63,7 +64,13 @@
                     {
                         if (sessionId == null)
                         {
-                            sessionId = "AwesomeSession";
+                            Random random = new Random();
+                            string randomNumber = string.Empty;
+                            for (int i = 0; i < 10; i++)
+                            {
+                                randomNumber += random.Next(0, 10).ToString();
+                            }
+                            sessionId = randomNumber;
                         }
 
                         // TODO: Add actual support for sessions. Temporary return single Automator for any season

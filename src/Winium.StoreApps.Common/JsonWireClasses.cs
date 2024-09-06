@@ -23,7 +23,7 @@ namespace Winium.StoreApps.Common
 
         #region Public Properties
 
-        [JsonProperty("ELEMENT")]
+        [JsonProperty("element-6066-11e4-a52e-4f735466cecf")]
         public string Element { get; set; }
 
         #endregion

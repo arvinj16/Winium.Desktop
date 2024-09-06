@@ -27,22 +27,22 @@
 
         #region Public Properties
 
-        [JsonProperty("app")]
+        [JsonProperty("winium:app")]
         public string App { get; set; }
 
-        [JsonProperty("args")]
+        [JsonProperty("winium:args")]
         public string Arguments { get; set; }
 
-        [JsonProperty("debugConnectToRunningApp")]
+        [JsonProperty("winium:debugConnectToRunningApp")]
         public bool DebugConnectToRunningApp { get; set; }
 
-        [JsonProperty("innerPort")]
+        [JsonProperty("winium:innerPort")]
         public int InnerPort { get; set; }
 
-        [JsonProperty("keyboardSimulator")]
+        [JsonProperty("winium:keyboardSimulator")]
         public KeyboardSimulatorType KeyboardSimulator { get; set; }
 
-        [JsonProperty("launchDelay")]
+        [JsonProperty("winium:launchDelay")]
         public int LaunchDelay { get; set; }
 
         #endregion
